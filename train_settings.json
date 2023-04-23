@@ -1,0 +1,19 @@
+{
+  "project_name": "MBRS_Midd&SE_",
+  "with_diffusion": false,
+  "only_decoder": false,
+  "epoch_number": 151,
+  "batch_size": 16,
+  "train_continue": false,
+  "train_continue_path": "MBRS_Lowf&SE__m30_Combined([JpegMask(50),Jpeg(50),Identity(),Crop(0.15,0.15)])__2021_10_14__21_25_40/",
+  "train_continue_epoch": 100,
+  "dataset_path": "../DataSet/Imagenet/",
+  "save_images_number": 4,
+  "H": 128,
+  "W": 128,
+  "message_length": 64,
+  "lr": 1e-3,
+  "noise_layers": [
+    "Combined([JpegMask(50),Jpeg(50),Identity()])"
+  ]
+}
